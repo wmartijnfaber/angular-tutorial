@@ -24,8 +24,12 @@ Voeg daar interactieve knoppen/links toe om de checks te manipuleren. Denk aan <
 Bouw een event emitter. (https://stackoverflow.com/questions/36076700/what-is-the-proper-use-of-an-eventemitter)
 
 ### Check 2
-Update de param via de check service. Injecteer de  checkservice in je component, bouw een methode in de service om te updaten. 
-####TIP! Gebruik de refresh functionaliteit om de tweede check te halen
+Update de param via de check service. Injecteer de  checkservice in je component, bouw een methode in de service om te updaten.
+(TIP! Gebruik de refresh functionaliteit om de tweede check te halen)
 
 ### Check 3
 Dispatch een action om de state te updaten (https://www.ngxs.io/concepts/store).
+
+
+### Creeer een pull request op github.
+https://github.com/wmartijnfaber/angular-tutorial/pulls
