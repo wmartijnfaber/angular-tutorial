@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-tutorial';
+
+  firstCheck = false;
+
+  onToggleCheck1(_: any) {
+    this.firstCheck = !this.firstCheck;
+  }
 }
