@@ -1,0 +1,25 @@
+<div fxLayout="row wrap">
+<mat-card>
+  <mat-card-title> eerste check </mat-card-title>
+  <mat-icon *ngIf="firstCheck">thumb_up</mat-icon>
+  <mat-icon *ngIf="!firstCheck">thumb_down</mat-icon>
+</mat-card>
+
+<mat-card>
+  <mat-card-title> tweede check </mat-card-title>
+  <mat-icon *ngIf="secondCheck">thumb_up</mat-icon>
+  <mat-icon *ngIf="!secondCheck">thumb_down</mat-icon>
+</mat-card>
+
+<mat-card>
+  <mat-card-title> derde check </mat-card-title>
+  <mat-icon *ngIf="thirdCheck">thumb_up</mat-icon>
+  <mat-icon *ngIf="!thirdCheck">thumb_down</mat-icon>
+</mat-card>
+
+<mat-card>
+  <mat-card-title> refresh</mat-card-title>
+  <mat-icon (click)="refresh()">refresh</mat-icon>
+</mat-card>
+
+</div>
