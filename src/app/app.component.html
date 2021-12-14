@@ -2,10 +2,11 @@
   <section class="container">
     <div fxLayout="row wrap">
       <!-- here should you custom component be! -->
-      <section class="input-holder">
+      <!-- <section class="input-holder">
         <h2 > gooi dit weg, en plak hier je component selector</h2>
-      </section>
-      <app-result class="item"></app-result>
+      </section> -->
+      <app-links (toggleCheck1)="onToggleCheck1($event)"></app-links>
+      <app-result class="item" [firstCheck]=firstCheck></app-result>
     </div>
   </section>
 </div>

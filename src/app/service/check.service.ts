@@ -9,6 +9,10 @@ export class CheckService {
 
   private param: boolean = false;
 
+  public toggleSecondParam() {
+    this.param = !this.param
+  }
+
   public getSecondParam() {
     return this.param;
   }
