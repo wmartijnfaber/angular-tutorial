@@ -16,6 +16,11 @@ navigeer via de cli naar de project folder en draai npm i (npm install)
 #### Creeer je eigen branch
 git checkout -b jouwBranchNaam
 
+#### Start de server
+```
+node node_modules\@angular\cli\bin\ng serve
+```
+
 ## Doel van de opdracht
 Zorg dat de 3 checks in app-result gehaald worden zonder daar code aan te passen (niet aan result/*ts komen). Creeer een eigen component: https://angular.io/cli/generate
 Voeg daar interactieve knoppen/links toe om de checks te manipuleren. Denk aan <button (click)=mijnClickFunctie(). Of kijk de refresh functionaliteit af uit het result.component.html en result.component.ts
