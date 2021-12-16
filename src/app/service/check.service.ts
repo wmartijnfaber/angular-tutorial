@@ -12,4 +12,8 @@ export class CheckService {
   public getSecondParam() {
     return this.param;
   }
+
+  public setSecondParam(value: boolean) {
+    this.param = value;
+  } 
 }
