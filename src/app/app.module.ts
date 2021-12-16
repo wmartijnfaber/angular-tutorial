@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ResultComponent } from './result/result.component';
+import { MyResultComponent } from './my-result/my-result.component';
 import {MatIconModule} from "@angular/material/icon";
 import {MatCardModule} from "@angular/material/card";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -14,7 +15,8 @@ import {CheckService} from "./service/check.service";
 @NgModule({
   declarations: [
     AppComponent,
-    ResultComponent
+    ResultComponent,
+    MyResultComponent
   ],
   imports: [
     BrowserModule,
