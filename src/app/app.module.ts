@@ -10,11 +10,13 @@ import {NgxsModule} from "@ngxs/store";
 import {environment} from "../environments/environment";
 import {CheckState} from "./state/check.state";
 import {CheckService} from "./service/check.service";
+import { ThumbsUpComponent } from './thumbs-up/thumbs-up.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ResultComponent
+    ResultComponent,
+    ThumbsUpComponent
   ],
   imports: [
     BrowserModule,

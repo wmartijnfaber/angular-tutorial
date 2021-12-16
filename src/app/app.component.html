@@ -3,9 +3,9 @@
     <div fxLayout="row wrap">
       <!-- here should you custom component be! -->
       <section class="input-holder">
-        <h2 > gooi dit weg, en plak hier je component selector</h2>
+        <app-thumbs-up (notifyParent)=getNotification()></app-thumbs-up>
       </section>
-      <app-result class="item"></app-result>
+      <app-result class="item" [firstCheck]=firstCheckValue></app-result>
     </div>
   </section>
 </div>
